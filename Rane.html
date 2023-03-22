@@ -40,14 +40,16 @@
 position:absolute;
 display:inline;
 line-height:80px;
-left:150px;
+left:100px;
+top:-30;
 }
 #rana_piccola #naso
 {
 position:absolute;
 display:inline;
 line-height:2px;
-left:48px;
+left:45px;
+top:-5px;
 }
 #rana_piccola #occhiodx
 {
@@ -62,13 +64,13 @@ background-color:blue;
 }
 #rana_piccola #occhiosx
 {
-right:80px;
+right:5px;
 position:relative;
 width:20px;
 height:20px;
 border:1px solid;
 border-radius:100px;
-top:-1px;
+top:-35px;
 background-color:blue;
 }
 
@@ -85,13 +87,13 @@ background-color:blue;
 }
 #rana_grande #occhiosx
 {
-right:170px;
+right:1px;
 position:relative;
 width:30px;
 height:30px;
 border:1px solid;
 border-radius:100px;
-top:-6px;
+top:-40px;
 background-color:blue;
 }
 #rana_grande #pupilla
@@ -102,6 +104,7 @@ width:10px;
 height:10px;
 border:2px solid;
 border-radius:100px;
+background-color:yellow;
 }
 
 #rana_piccola #pupilla
@@ -114,26 +117,38 @@ width:10px;
 height:10px;
 border:2px solid;
 border-radius:100px;
+background-color:yellow;
 }
+
 #container
 {
  width:900px;
  height:1500px;
 }
 
+#rana_piccola:hover #pupilla , #rana_grande:hover #pupilla
+{
+ background-color: orange;
+}
+
 </style>
 </head>
 
 <body>
-<div id = "container">
-<div id = "rana_piccola"><div id = "occhiodx"><div id = "pupilla"/></div></div><div id = "occhiosx"><div id = "pupilla"/></div></div><p id = "naso">--</p></div><br/>
-<div id = "rana_grande"><div id = "occhiodx"><div id = "pupilla"/></div></div><div id = "occhiosx"><div id = "pupilla"/></div></div><p id = "naso">--</p></div><br/>
-<div id = "rana_piccola"><div id = "occhiodx"><div id = "pupilla"/></div></div><div id = "occhiosx"><div id = "pupilla"/></div></div><p id = "naso">--</p></div><br/>
-<div id = "rana_piccola"><div id = "occhiodx"><div id = "pupilla"/></div><div id = "occhiosx"><div id = "pupilla"/></div><p id = "naso">--</p></div>
-<div id = "rana_piccola"><div id = "occhiodx"><div id = "pupilla"/></div><div id = "occhiosx"><div id = "pupilla"/></div><p id = "naso">--</p></div><br/>
-<div id = "rana_grande"><div id = "occhiodx"><div id = "pupilla"/></div></div><div id = "occhiosx"><div id = "pupilla"/></div></div><p id = "naso">--</p></div>
-<div id = "rana_piccola"><div id = "occhiodx"><div id = "pupilla"/></div></div><div id = "occhiosx"><div id = "pupilla"/></div></div><p id = "naso">--</p></div><br/>
 
+<div id = "container">
+<div id = "rana_piccola"><div id = "occhiodx"><div id = "pupilla"/></div></div><div id = "occhiosx"><div id = "pupilla"/></div></div><p id = "naso">--</p></div>
+<div id = "rana_grande"><div id = "occhiodx"><div id = "pupilla"/></div></div><div id = "occhiosx"><div id = "pupilla"/></div></div><p id = "naso">--</p></div>
+<br/>
+<div id = "rana_grande"><div id = "occhiodx"><div id = "pupilla"/></div></div><div id = "occhiosx"><div id = "pupilla"/></div></div><p id = "naso">--</p></div><br/><br/>
+<div id = "rana_piccola"><div id = "occhiodx"><div id = "pupilla"/></div></div><div id = "occhiosx"><div id = "pupilla"/></div></div><p id = "naso">--</p></div><br/> <br/>
+<div id = "rana_piccola"><div id = "occhiodx"><div id = "pupilla"/></div></div><div id = "occhiosx"><div id = "pupilla"/></div></div><p id = "naso">--</p></div>
+<div id = "rana_grande"><div id = "occhiodx"><div id = "pupilla"/></div></div><div id = "occhiosx"><div id = "pupilla"/></div></div><p id = "naso">--</p></div><br/> <br/>
+<div id = "rana_piccola"><div id = "occhiodx"><div id = "pupilla"/></div></div><div id = "occhiosx"><div id = "pupilla"/></div></div><p id = "naso">--</p></div>
+<div id = "rana_piccola"><div id = "occhiodx"><div id = "pupilla"/></div></div><div id = "occhiosx"><div id = "pupilla"/></div></div><p id = "naso">--</p></div><br/> <br/>
+<div id = "rana_grande"><div id = "occhiodx"><div id = "pupilla"/></div></div><div id = "occhiosx"><div id = "pupilla"/></div></div><p id = "naso">--</p></div>
+<div id = "rana_grande"><div id = "occhiodx"><div id = "pupilla"/></div></div><div id = "occhiosx"><div id = "pupilla"/></div></div><p id = "naso">--</p></div>
+<div id = "rana_piccola"><div id = "occhiodx"><div id = "pupilla"/></div></div><div id = "occhiosx"><div id = "pupilla"/></div></div><p id = "naso">--</p></div><br/><br/>
 
 
 </div>

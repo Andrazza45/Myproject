@@ -1,0 +1,154 @@
+@import 'variables';
+@import 'mixins';
+
+
+$primary: darkorange;
+_borders.scss
+$round-borders: 5px;
+$circle-borders: 50%;
+
+
+body
+{
+ background-color:$primary;
+}
+
+@mixin #notification($border-color: red, $bg-color:
+yellow, $border-radius: 2px)
+{
+  @extend .panel;
+  color:white;
+}
+
+
+@mixin .scheduling($border-color: brown, $bg-color:
+ wheat, $border-radius: 2px dashed) {
+ border-radius: $border-radius;
+ border: 1px solid $border-color;
+ background-color: $bg-color;
+ margin: 10px auto;
+ box-shadow: 1px 1px 6px -1px black;
+ width: 200px;
+ height: 80px;
+
+}
+
+
+
+
+$colorDark:darkgreen;
+$colorLight:lightgreen;
+.dark{
+background-color:$colorD;
+
+}
+.light
+{
+ background-color:$colorLight;
+}
+
+.schede
+{
+    display:inline block;
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    margin: 1em;
+    border: 2px solid;
+    text-align:center;
+    line-height: 50px;
+}
+
+.schede:nth-of-type(-n)
+{
+left:50px;
+}
+.schede:nth-of-type(n)
+{
+left:100px;
+}
+.schede:nth-of-type(n)
+{
+left:100px;
+}
+.schede:nth-of-type(2n)
+{
+left:300px;
+}
+.schede:nth-of-type(3n)
+{
+left:600px;
+}
+.schede:nth-of-type(4n)
+{
+ left:900px;
+}
+
+
+.scheduling
+{
+position:relative;
+background-color:darkgreen;
+width:1100px;
+height:100px;
+}
+#Suolo
+{
+ width:500px;
+ height:500px;
+ position:absolute;
+ barder:3px solid black;
+}
+#Suolo td
+{
+ background-color:gray;
+ width:40px;
+ height:40px;
+ text-align:center;
+}
+#Suolo td:hover
+{
+ background-color:blue;
+}
+ #Riquadro_gioco
+ {
+  position:relative;
+  width:1100px;
+  height:600px;
+  background-color:lightgray;
+ }
+ 
+ #Riquadro_gioco #menu
+{
+ position:absolute;
+ width:200px;
+ height:600px;
+ float:right;
+ left:900px;
+ background-color:lightgreen;
+}
+#menu button
+{
+ border-radius: 2px solid;
+ background-color:gray;
+ position:relative;
+ top:5px;
+ 
+ .btn {
+ border-radius: 10px;
+ border: 1px solid black;
+ width: 20px;
+ height: 20px;
+ }
+
+@use 'borders';
+
+.btn {
+ @include borders.round-border(10px);
+}
+
+}
+body
+{
+background-image:url();
+}

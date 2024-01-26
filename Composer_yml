@@ -27,3 +27,4 @@ scrape_configs:
 
     static_configs:
       - targets: ["localhost:9090"]
+C:\Users\icts22-24.230\AppData\Local\Packages\Microsoft.Windows.OOBENetworkCaptivePortal_cw5n1h2txyewy\AppData
